@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, intial-scale = 1.0">
+    <link rel="stylesheet" href="MyCSS.css">
+    <title>Form Demo</title>
+
+</head>
+
+<body>
+    <div class="mainDiv">
+        <form action="">
+            <div id="MainDiv">
+                <div class="div1">
+                    First Name: <input type="text" />
+                    Last Name: <input type="text" />
+                </div>
+                <div class="div1">
+                    <div class="w-50 dis-inline">Birth Date: <input type="date" class="w-28 h-21" /></div>
+                    <div class="w-50 dis-inline">
+                        Male <input type="radio" name="gender" value="Male">
+                        Female<input type="radio" name="gender" value="Female">
+                        Others <input type="radio" name="gender" value="Other">
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="w-50 dis-inline">Contact No: <input type="tel" maxlength="10"> </div>
+                    <div class="w-50 dis-inline">Email : <input type="email" class="w-30"> </div>
+                </div>
+                <div class="div1">
+                    <div id="adrs" class="dis-inline"> Address: </div>
+                    <div class="w-80 m-3 dis-inline"><textarea name="address" rows="4" cols="50"></textarea></div>
+                </div>
+                <div class="div1">
+                    <div class="w-50 dis-inline">
+                        Select Degree:
+                        <select class="drpdwnlist1" name="Degree">
+                            <option value="Phd">Phd</option>
+                            <option value="Engeneering">Engeneering</option>
+                            <option value="MSC IT">MSc IT</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="BCA">BCA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="B.SC">B.Sc</option>
+                            <option value="ITI">ITI</option>
+                            <option value="B.COM">B.com</option>
+                            <option value="B.A.">B.A.</option>
+                        </select>
+                    </div>
+                    <div class="w-50 dis-inline"> Langauges:
+                        Hindi<input type="checkbox" value="Hindi" name="Hindi">
+                        Gujarati<input type="checkbox" value="Gujarati" name="Gujarti">
+                        English <input type="checkbox" value="English" name="English">
+                    </div>
+                </div>
+                <div class="div1 mb-15 mt-23">
+                    <div class="w-50 dis-inline"><input type="submit" value="Submit" class="BtnSetReset"></div>
+                    <div class="w-50 dis-inline"><input type="reset" class="BtnSetReset"></div>                   
+                </div>               
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

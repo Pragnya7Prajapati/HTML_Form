@@ -1,0 +1,76 @@
+.mainDiv {
+    width: 40%;
+    height: auto;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div1 {
+    margin: 15px 5px 5px 15px;
+    width: 100%;
+}
+
+.dis-inline {
+    display: inline;
+}
+
+.w-28 {
+    width: 28%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.h-21 {
+    height: 21px;
+}
+
+.m-3 {
+    margin-left: 3px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mt-23 {
+    margin-top: 23px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.fontfamily {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.drpdwnlist1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 108px;
+    height: 22px;
+    font-size: 15px;
+}
+
+.BtnSetReset {
+    width: 20%;
+    height: 30px !important;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#adrs {
+    display: flex;
+    float: left;
+}
